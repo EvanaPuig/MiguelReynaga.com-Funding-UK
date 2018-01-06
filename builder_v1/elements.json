@@ -1,0 +1,64 @@
+var _Elements = {"elements": {
+    "Headers":[
+    	{"url":"elements/header1.html","height":567, "thumbnail":"elements/images/thumbs/header1.jpg", "title":"header1 parallax"},
+		{"url":"elements/header2.html","height":567, "thumbnail":"elements/images/thumbs/header2.jpg", "title":"header2 vide lightbox"},
+		{"url":"elements/header3.html","height":567, "thumbnail":"elements/images/thumbs/header3.jpg", "title":"header3 video bg"}
+    ],
+	
+	"Navigations":[
+		{"url":"elements/navigation.html","height":567, "thumbnail":"elements/images/thumbs/navigation.jpg", "title":"Navigation"}
+		
+	],
+	"Event Counter":[
+		{"url":"elements/event-counter.html","height":567, "thumbnail":"elements/images/thumbs/ecounter.jpg", "title":"Event counter"}
+	],
+	"Intro":[
+		{"url":"elements/intro.html","height":567, "thumbnail":"elements/images/thumbs/intro.jpg", "title":"Intro"}
+	],
+	"Causes":[
+		{"url":"elements/causes.html","height":567, "thumbnail":"elements/images/thumbs/causes.jpg", "title":"Causes"}
+	],
+	"Events":[
+		{"url":"elements/events.html","height":567, "thumbnail":"elements/images/thumbs/event.jpg", "title":"Event"}
+	],
+	"News":[
+		{"url":"elements/blog.html","height":567, "thumbnail":"elements/images/thumbs/blog.jpg", "title":"News"}
+	],
+	"Shop":[
+		{"url":"elements/shop.html","height":567, "thumbnail":"elements/images/thumbs/shop.jpg", "title":"Shop"}
+	],
+	"Portfolios":[
+    	{"url":"elements/gallery.html","height":567, "thumbnail":"elements/images/thumbs/gallery.jpg", "title":"gallery"}
+    ],
+	"Testimonials":[
+    	{"url":"elements/testimonial.html","height":567, "thumbnail":"elements/images/thumbs/testimonial.jpg", "title":"Testimonial"}
+    ],
+	
+	"Team":[
+    	{"url":"elements/team.html","height":567, "thumbnail":"elements/images/thumbs/team.jpg", "title":"Team"}
+    	
+    ],
+	
+	"Call-Out":[
+    	{"url":"elements/call-out.html","height":567, "thumbnail":"elements/images/thumbs/call-out.jpg", "title":"callout"}
+    	
+    ],
+	"Partners":[
+    	{"url":"elements/partner.html","height":567, "thumbnail":"elements/images/thumbs/partner.jpg", "title":"Partner"},
+    ],
+	
+	"Funfact Counter":[
+    	{"url":"elements/funfact.html","height":567, "thumbnail":"elements/images/thumbs/funfact.jpg", "title":"Funfact"}
+		
+    ],
+	"Subscription Forms":[
+    	{"url":"elements/subscription.html","height":567, "thumbnail":"elements/images/thumbs/subscription.jpg", "title":"subscription"}
+    ],
+	
+	"Footers":[
+    	{"url":"elements/footer.html","height":567, "thumbnail":"elements/images/thumbs/footer.jpg", "title":"Footer"}
+		
+    ],
+    
+    }
+}
