@@ -47,9 +47,34 @@
 			<div class="container" data-selector="Footers">
 				<div class="slide-content clearfix" data-selector="Footers">
 					<div class="big-text" data-selector="Footers">
-						<p data-selector="Footers" style="background: none 0% 0% / auto repeat scroll padding-box border-box rgb(157, 200, 82); color: rgb(119, 119, 119); font-size: 30px; padding: 15px 30px; margin: 0px; text-align: center; font-family: Lato;">
-							<strong data-selector="Footers">DONAR</strong>
-						</p>
+						<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+							<input type="hidden" name="cmd" value="_s-xclick">
+							<input type="hidden" name="hosted_button_id" value="UYAGPW3DPQ42C">
+							<table>
+								<tr>
+									<td>
+										<input type="hidden" name="on0" value="Donaciones">
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class="styled-select rounded">
+											<select name="os0">
+												<option value="$50">$50.00 MXN</option>
+												<option value="$100">$100.00 MXN</option>
+												<option value="$200">$200.00 MXN</option>
+												<option value="$500">$500.00 MXN</option>
+												<option value="$1000">$1,000.00 MXN</option>
+											</select> 
+										</div>
+									</td>
+								</tr>
+							</table>
+							<input type="hidden" name="currency_code" value="MXN">
+							<br>
+							<input type="image" src="images/button_donation.png" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+							<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+						</form>
 					</div>
 				</div>
 			</div>
@@ -75,7 +100,7 @@
 						<div class="team-main-wrap" data-selector="Footers">
 							<div class="team-wrapper" data-selector="Footers">
 								<div class="team" data-selector="Footers">
-									<img class="img img-biography" src="images/team/team-01.png" alt="team2" data-selector="img">
+									<img class="img img-biography" src="images/team/team-01.jpg" alt="team2" data-selector="img">
 									<div class="overlay" data-selector="Footers"></div>
 								</div>
 								<div class="title" data-selector="Footers">
@@ -369,7 +394,34 @@ de Becas de Educación Superior de la Secretaria de Educación Pública de Méxi
 					<h3 data-selector="Footers">Ayúdame a lograrlo</h3>
 				</div>
 				<div class="call-out-msg-btn pull-right" data-selector="Footers">
-					<a href="#" data-selector="Footers">Donar</a>
+					<form class="form-back" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+							<input type="hidden" name="cmd" value="_s-xclick">
+							<input type="hidden" name="hosted_button_id" value="UYAGPW3DPQ42C">
+							<table>
+								<tr>
+									<td>
+										<input type="hidden" name="on0" value="Donaciones">
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class="styled-select rounded">
+											<select name="os0">
+												<option value="$50">$50.00 MXN</option>
+												<option value="$100">$100.00 MXN</option>
+												<option value="$200">$200.00 MXN</option>
+												<option value="$500">$500.00 MXN</option>
+												<option value="$1000">$1,000.00 MXN</option>
+											</select> 
+										</div>
+									</td>
+								</tr>
+							</table>
+							<input type="hidden" name="currency_code" value="MXN">
+							<br>
+							<input type="image" src="images/button_donation.png" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+							<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+						</form>
 				</div>
 			</div>
 		</section><!--=============================NEWS  SECTION ==================================-->
