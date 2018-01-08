@@ -857,7 +857,7 @@ ul.menu.mini li:hover a, ul.menu.mini li.active a {
 	}
 
 .static-header{
-	min-height: 500px;
+	min-height: 800px;
 	margin-bottom:70px;
 	text-align:center;
 	position:relative;
@@ -872,13 +872,32 @@ ul.menu.mini li:hover a, ul.menu.mini li.active a {
 .slide-content .big-text{font-size:30px;font-family:'Roboto';font-weight:700;padding:15px 0 15px;display:inline-block;}
 
 .styled-select {
-   background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
-   height: 29px;
-   overflow: hidden;
-   width: 180px;
+	position: absolute;
+	right: 0px;
+   	background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+   	height: 29px;
+   	overflow: hidden;
+   	width: 120px;
 }
 
 .styled-select select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 268px;
+   color:#ffffff;
+}
+
+.styled-select-rel {
+   	background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+   	height: 29px;
+   	overflow: hidden;
+   	width: 120px;
+}
+
+.styled-select-rel select {
    background: transparent;
    border: none;
    font-size: 14px;
@@ -902,18 +921,24 @@ ul.menu.mini li:hover a, ul.menu.mini li.active a {
 }
 
 .btn-donate{
-	margin:20px;
+	position: absolute;
+	right:0px;
+	bottom: 35px;
 }
 
 .see-rewards{
-	width: 100%;
-	max-height: 60px;
-	background-color: rgba(211,211,211,0.2);
+	min-width:50px;
+	position: absolute;
+	height: 25px;
+	border-radius: 10px;
+	top:40px;
+	right: 0px;
+	background-color: #9dc852;
+	margin-bottom: 0px;
 }
 
 .see-rewards p{
-	font-size: 20px;
-	color: rgba(255,255,255,0.2);
+	font-size: 12px;
 }
 
 /*
@@ -2338,10 +2363,6 @@ ul.menu.mini li:hover a, ul.menu.mini li.active a {
 	min-width: 100%;
 	}
 
-.rewards .title{
-	padding:20px 0 0;
-	background-color: #9DC852;
-	}
 .rewards .title h5{
 	padding-top:0 ;
 	padding-bottom:0 ;
@@ -2351,6 +2372,6 @@ ul.menu.mini li:hover a, ul.menu.mini li.active a {
 	font-weight: 700;
     font-style: italic;
 	letter-spacing:1px;
-	color: #ffffff;
+	color: #000000;
 	}
 
