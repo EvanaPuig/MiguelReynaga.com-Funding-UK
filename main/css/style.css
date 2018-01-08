@@ -891,9 +891,10 @@ ul.menu.mini li:hover a, ul.menu.mini li.active a {
 }
 
 .styled-select-rel {
+	position: relative;
+	padding-right: 0;
    	background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
    	height: 29px;
-   	overflow: hidden;
    	width: 120px;
 }
 
@@ -902,8 +903,8 @@ ul.menu.mini li:hover a, ul.menu.mini li.active a {
    border: none;
    font-size: 14px;
    height: 29px;
-   padding: 5px; /* If you add too much padding here, the options won't show in IE */
-   width: 268px;
+   padding: 15px; /* If you add too much padding here, the options won't show in IE */
+   width: 130px;
    color:#ffffff;
 }
 
@@ -915,9 +916,12 @@ ul.menu.mini li:hover a, ul.menu.mini li.active a {
 }
 
 .form-back{
+	margin-left: 70px;
 	background-color:#ffffff;
 	padding: 5px;
 	border-radius: 10px;
+	max-width: 150px;
+	max-height: 120px;
 }
 
 .btn-donate{
