@@ -509,7 +509,7 @@ ul.menu.mini li:hover a, ul.menu.mini li.active a {
 	}
 
 .team-wrapper .team .overlay{
-	background:rgba(157,200,82,0.50);
+	background:rgba(157,200,82,0.5);
 	}
 .team-wrapper .team  .overlay:before{
 	 background: rgba(255, 255, 255, 0.5);

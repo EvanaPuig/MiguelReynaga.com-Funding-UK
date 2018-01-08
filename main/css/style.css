@@ -146,8 +146,10 @@ a:focus {
 	height:6px;
 	float:left;
 	}
+
 .section-title{
 	text-align:center;
+	margin-top:50px;
 	margin-bottom:20px;
 	}
 .section-title > h5 {}
@@ -1568,13 +1570,73 @@ ul.menu.mini li:hover a, ul.menu.mini li.active a {
 	}
 
 .p-biography{
+	font-size:16px;
 	text-align: justify;
+	padding: 0px;
+}
+
+.sub-biography{
+	font-size:25px;
+	font-weight: bolder;
+	text-align: justify;
+}
+
+.date-biography{
+	font-size:18px;
+	font-weight: bold;
+	text-align: justify;
+	padding: 0px;
+}
+
+.activity-biography{
+	font-size:18px;
+	font-weight: bold;
+	text-align: justify;
+	padding: 0px;
+	padding-left: 10px;
+	background-color: #9DC852;
+}
+
+.univ-biography{
+	font-size: 17px;
+	font-weight: bold;
+	text-align: justify;
+	padding: 0px;
 }
 
 .img-biography{
 	display: block;
 	margin: auto;
 }
+
+.job-biography{
+	border-style: solid; 
+	border-width: 5px;
+	border-color: #9DC852;
+}
+
+.job-biography p{
+	font-size: 14px ;
+	text-align: justify;
+	padding: 5px;
+}
+
+.table-text th{
+	font-family:'Lato';
+	font-size:18px;
+	text-align: center;
+	padding: 0px;
+	font-weight: bold;
+}
+
+.table-text td{
+	font-family:'Lato';
+	font-size:16px;
+	text-align: center;
+	padding: 0px;
+	vertical-align: middle;
+}
+
 /*
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 	11 GALLARY
