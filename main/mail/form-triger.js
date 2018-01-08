@@ -1,7 +1,7 @@
 "use strict";
 $(document).ready(function() {
 	
-    $("#footer-form-btn").on('click',function() { 
+    $("#footer-form-btn").click(function() { 
        
 	    var proceed = true;
         //simple validation at client's end

@@ -33,7 +33,7 @@
 
 /*-- sticky nav resize --*/
 			
-			$(window).on('scroll', function() {
+			$(window).bind('scroll', function() {
 				var navHeight = 1;
 				if ($(window).scrollTop() > navHeight) {
                  $('.main-header').addClass('header-height2');
@@ -44,7 +44,7 @@
 			});
 			/*-- onepage active menu --*/
 			
-			$('ul.menu li a').on('click',function() {
+			$('ul.menu li a').click(function() {
 				var $this = $(this);
 				$this.parent().siblings().removeClass('active').end().addClass('active');
     

@@ -866,7 +866,7 @@ ul.menu.mini li:hover a, ul.menu.mini li.active a {
 .slide-content .left-line{width:162px;height:3px;margin-top:5px;display:inline-block;}
 .slide-content .mid-text{font-size:24px;font-family:'Roboto';font-weight:700;padding:0 20px;display:inline-block;position:relative;top:5px;}
 .slide-content .right-line{width:162px;height:3px;display:inline-block;margin-top:5px;}
-.slide-content .big-text{font-size:120px;font-family:'Roboto';font-weight:700;padding:10px 0 25px;display:inline-block;}
+.slide-content .big-text{font-size:120px;font-family:'Roboto';font-weight:700;padding:15px 0 15px;display:inline-block;}
 
 /*
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
@@ -1566,6 +1566,15 @@ ul.menu.mini li:hover a, ul.menu.mini li.active a {
     font-style: italic;
 	letter-spacing:1px;
 	}
+
+.p-biography{
+	text-align: justify;
+}
+
+.img-biography{
+	display: block;
+	margin: auto;
+}
 /*
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 	11 GALLARY

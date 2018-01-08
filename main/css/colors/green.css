@@ -187,18 +187,11 @@ ul.menu.mini li:hover a, ul.menu.mini li.active a {
 
 
 .slide-content{}
-.slide-content .left-line{background:#fff;}
-.slide-content .mid-text{color:#fff;}
-.slide-content .right-line{background:#fff;}
-.slide-content .big-text{color:#fff;border-bottom:6px solid #fff;}
+.slide-content .big-text{color:#fff;border-bottom:6px solid #fff;border-top:6px solid #fff;}
 
 
- .slide-content .left-line{background:#9DC852;}
-.slide-content .right-line{background:#9DC852;}
- .slide-content .big-text{color:#fff;border-bottom:3px solid #9DC852;}
-#slide-content-1 .slide-content .left-line{background:#9DC852;}
-#slide-content-1 .slide-content .right-line{background:#9DC852;}
-#slide-content-1 .slide-content .big-text{color:#fff;border-bottom:3px solid #9DC852;}
+.slide-content .big-text{color:#fff;border-bottom:3px solid #9DC852;border-top:3px solid #9DC852;}
+#slide-content-1 .slide-content .big-text{color:#fff;border-bottom:3px solid #9DC852;border-top:3px solid #9DC852;}
 		/*
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 2# ABOUT
