@@ -857,6 +857,7 @@ ul.menu.mini li:hover a, ul.menu.mini li.active a {
 	}
 
 .static-header{
+	min-height: 500px;
 	margin-bottom:70px;
 	text-align:center;
 	position:relative;
@@ -871,10 +872,11 @@ ul.menu.mini li:hover a, ul.menu.mini li.active a {
 .slide-content .big-text{font-size:30px;font-family:'Roboto';font-weight:700;padding:15px 0 15px;display:inline-block;}
 
 .styled-select {
+	margin-top: 300px;
    background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
    height: 29px;
    overflow: hidden;
-   width: 240px;
+   width: 180px;
 }
 
 .styled-select select {
@@ -898,6 +900,21 @@ ul.menu.mini li:hover a, ul.menu.mini li.active a {
 	background-color:#ffffff;
 	padding: 5px;
 	border-radius: 10px;
+}
+
+.btn-donate{
+	margin:20px;
+}
+
+.see-rewards{
+	width: 100%;
+	max-height: 60px;
+	background-color: rgba(211,211,211,0.2);
+}
+
+.see-rewards p{
+	font-size: 20px;
+	color: rgba(255,255,255,0.2);
 }
 
 /*
@@ -2310,4 +2327,31 @@ ul.menu.mini li:hover a, ul.menu.mini li.active a {
 .main-shop .span4{margin-bottom:30px;}
 .main-shop .span4:nth-child(3n+1){margin-left:0;}
 
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	20 REWARDS
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+
+#rewards{
+	background-color: #d3d3d3;
+	min-height:500px;
+	min-width: 100%;
+	}
+
+.rewards .title{
+	padding:20px 0 0;
+	background-color: #9DC852;
+	}
+.rewards .title h5{
+	padding-top:0 ;
+	padding-bottom:0 ;
+	}
+
+.rewards .title p{
+	font-weight: 700;
+    font-style: italic;
+	letter-spacing:1px;
+	color: #ffffff;
+	}
 
