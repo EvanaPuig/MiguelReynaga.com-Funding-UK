@@ -42,9 +42,12 @@
 		
 	<!--===========================================Static Header================================-->
 
-		<div class="row-fluid static-header" data-vide-bg="video/ocean" style="background: none 0% 0% / cover no-repeat fixed padding-box border-box rgba(0, 0, 0, 0); max-height: 1827px; min-height: 1827px; padding: 0px; margin: 0px;" data-selector="Footers">
+		<div class="row-fluid static-header" data-selector="Footers">
+
+			<div class="video_container">
+				<div id="player"></div>
+			</div>
 			
-			<div id="player"></div>
 			
 			<div class="container" data-selector="Footers">
 				<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -89,6 +92,7 @@
 					</a>
 					
 				</button>
+			</div>
 			
 		</div>
 
@@ -849,7 +853,7 @@ University. Challenges and Perspectives. México city, May 2017.
 	      var player;
 	      function onYouTubeIframeAPIReady() {
 	        player = new YT.Player('player', {
-	          height: '400px',
+	          height: '100%',
 	          width: '100%',
 	          videoId: 'EinKhi_YRIg',
 	          events: {

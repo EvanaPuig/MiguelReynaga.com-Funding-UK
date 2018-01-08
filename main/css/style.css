@@ -2379,3 +2379,9 @@ ul.menu.mini li:hover a, ul.menu.mini li.active a {
 	color: #000000;
 	}
 
+.video_container{
+	width:100%;
+	max-height: 100%;
+	position: absolute;
+}
+

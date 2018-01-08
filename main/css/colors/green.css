@@ -175,7 +175,7 @@ ul.menu.mini li:hover a, ul.menu.mini li.active a {
 .no-rgba .chaser {background: #fff;}
 
 .static-header{
-	background:url(../../images/sliders/static/03.jpg) no-repeat center center;
+	background: no-repeat center center;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
